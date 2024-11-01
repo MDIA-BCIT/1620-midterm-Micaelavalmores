@@ -13,3 +13,24 @@ CHALLENGE
 - If the password is less than 5 characters, log out "Your password is too short!".
 */
 
+
+//  let userPassword = ["Ilovecats", "forgot", "reset"];
+
+function passwordInput(userPassword, correctPassword, ) {
+    // - If the user's input matches the password exactly, log out "Access Granted!"
+    if (userPassword === correctPassword) {
+        console.log("Access Granted!");
+    //   - If the user's input does not match, log out "Access Denied!"  
+     } else if (userPassword !== correctPassword) {
+        console.log("Access Denied!");
+    }
+    }
+
+
+passwordInput("Ilovecats", "Ilovecats")
+
+
+
+
+
+
